@@ -44,12 +44,7 @@ body {
 .announce-date {
   margin-top: -5px; 
   text-decoration: underline wavy rgb(164, 190, 237);
-}
-
-.i {
-  display: inline;
-}
-.ib {
+}.ib {
   display: inline-block;
 }
 
@@ -73,6 +68,23 @@ body {
   height: 40px;
   width: 40px;
   display: inline-block;
+  border: 0;
+  background-color: unset;
+  color: transparent;
+  border-radius: 8px;
+  margin: 0 2px;
+}
+
+.b-tt {
+  background-image: url("/img/tt.png");
+}
+
+.b-yt {
+  background-image: url("/img/yt.png");
+}
+
+.b-tumblr {
+  background-image: url("/img/tumblr.png");
 }
 
 .b-link:hover {
