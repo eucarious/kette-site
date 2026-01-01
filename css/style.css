@@ -87,6 +87,10 @@ body {
   background-image: url("/img/tumblr.png");
 }
 
+.b-bsky {
+  background-image: url("/img/bsky.png");
+}
+
 .b-link:hover {
   animation: 1s;
   filter: saturate(10); 
