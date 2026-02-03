@@ -66,19 +66,19 @@ body {
 }
 
 .f {
-  position: fixed;
   margin-top: auto;
   padding: 0 0 2vh 0;
   bottom: 0;
   right: 0;
   left: 0;
+  
 }
 
 
 .steamframe-wrapper {
 	position: relative;
   padding: 0px 0px 200px ;
-  margin: 0 20px;
+  margin: 0 40px;
 	height: 0;
 }
 
