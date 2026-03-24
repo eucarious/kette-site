@@ -19,8 +19,10 @@
 }
 
 html {
-  background-image: url("/img/concept.png");
-
+  background-image: url("/img/bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 body {
@@ -133,6 +135,10 @@ body {
 
 .b-bsky {
   background-image: url("/img/bsky.png");
+}
+
+.b-discord {
+  background-image: url("/img/discord.png");
 }
 
 .b-link:hover {
