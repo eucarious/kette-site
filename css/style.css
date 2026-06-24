@@ -1,11 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&display=swap');
+
+.azeret-mono-medium {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+p {
+  font-size: 1.7vw;
+}
+
+.azeret-mono-footer {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0.2vh;
+}
+
+.pixelify-sans {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 :root {
-  --bg: oklch(99.313% 0.0119 96.474);
+  --bg: #FEFCF9;
   --text: oklch(15.08% 0.02731 82.098);
   --text-muted: oklch(0.4 0.03 85);
   --text-bright: oklch(1 0.03 85);
+
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
+.rainbow-div {
+  height: 0.5vh;
+background: #ff2b2b;
+background: linear-gradient(90deg, rgba(255, 43, 43, 1) 0%, rgba(255, 167, 66, 1) 15%, rgba(237, 255, 99, 1) 30%, rgba(142, 237, 74, 1) 46%, rgba(72, 224, 247, 1) 63%, rgba(33, 36, 217, 1) 81%, rgba(237, 83, 222, 1) 100%);
+margin: 2vh 4vw;
+}
+
+.logo {
+  max-height: 8vw;
+  display: inline;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.flex-c {
+  justify-content: center;
+  display: flex;
+  flex: content;
+  flex-direction: row;
+  gap: 2vw;
+}
+
+.hero {
+  margin: 3vh -1vw;
+  height: 60vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/img/bg.png);
+}
+
+.footer-p {
+    margin: 0;
+  padding: 0.2vh;
+}
+
+
+
+/* 
 
 .pixelify-sans-title {
   font-family: "Pixelify Sans", sans-serif;
@@ -40,7 +119,7 @@ body {
 
 .studio-title {
   font-size: xxx-large;
-  /* font-weight: 400; */
+  /* font-weight: 400; 
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -105,16 +184,18 @@ body {
 	width: 100%;
 	height: 100%;
 }
+*/
 
 .b-link {
-  height: 40px;
-  width: 40px;
+  height: 6vw;
+  width:6vw;
   display: inline-block;
   border: 0;
   background-color: unset;
+  background-size: cover;
   color: transparent;
   border-radius: 8px;
-  margin: 0 2px;
+  margin: 2px 2px;
 }
 
 .b-steam {
@@ -144,5 +225,4 @@ body {
 .b-link:hover {
   animation: 1s;
   filter: saturate(2); 
-  /* do not leave this at 10 lol */
-}
+} 
