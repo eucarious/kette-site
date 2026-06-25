@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&display=swap');
 
+:root {
+  --bg: #FEFCF9;
+  --text: oklch(15.08% 0.02731 82.098);
+  --text-muted: oklch(43.861% 0.00005 271.152);
+  --text-bright: oklch(1 0.03 85);
+
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 .azeret-mono-medium {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
@@ -11,6 +24,16 @@ h1 {
   font-size: 3vw;
 }
 
+h2 {
+  font-size: 2vw;
+}
+
+h3 {
+  font-size: 1.5vw;
+  color: var(--text-muted);
+}
+
+
 p {
   font-size: 1.7vw;
 }
@@ -21,7 +44,7 @@ p {
   font-weight: 400;
   font-style: normal;
   margin: 0;
-  padding: 0.2vh;
+  padding: 0.1vw;
 }
 
 .pixelify-sans {
@@ -31,28 +54,45 @@ p {
   font-style: normal;
 }
 
-:root {
-  --bg: #FEFCF9;
-  --text: oklch(15.08% 0.02731 82.098);
-  --text-muted: oklch(0.4 0.03 85);
-  --text-bright: oklch(1 0.03 85);
-
-  font-family: "Pixelify Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
 
 .rainbow-div {
-  height: 0.5vh;
-background: #ff2b2b;
-background: linear-gradient(90deg, rgba(255, 43, 43, 1) 0%, rgba(255, 167, 66, 1) 15%, rgba(237, 255, 99, 1) 30%, rgba(142, 237, 74, 1) 46%, rgba(72, 224, 247, 1) 63%, rgba(33, 36, 217, 1) 81%, rgba(237, 83, 222, 1) 100%);
-margin: 2vh 4vw;
+  height: 0.35vw;
+  width: 80vw;
+  margin: 1.5vw auto;
+  background: #ff2b2b;
+  background: linear-gradient(90deg, rgba(255, 43, 43, 1) 0%, rgba(255, 167, 66, 1) 15%, rgba(237, 255, 99, 1) 30%, rgba(142, 237, 74, 1) 46%, rgba(72, 224, 247, 1) 63%, rgba(33, 36, 217, 1) 81%, rgba(237, 83, 222, 1) 100%);
+
 }
 
 .logo {
   max-height: 8vw;
   display: inline;
+}
+
+.pad {
+  margin: 2vw 0;
+}
+
+.xtra-pad {
+  margin: 5vw 0;
+}
+
+
+.news {
+  width: 25vw;
+  padding: 0;
+  margin: 0.5vw 0;
+}
+
+.news-img {
+  width: 45vw;
+  height: 10vw;
+  object-fit: cover;
+}
+
+.date {
+  padding: 0;
+  margin: 0;
 }
 
 .navigation a {
@@ -78,8 +118,8 @@ margin: 2vh 4vw;
 }
 
 .footer-p {
-    margin: 0;
-  padding: 0.2vh;
+  margin: 0;
+  padding: 0.1vw;
 }
 
 
@@ -194,8 +234,7 @@ body {
   background-color: unset;
   background-size: cover;
   color: transparent;
-  border-radius: 8px;
-  margin: 2px 2px;
+  margin: 0.2vw;
 }
 
 .b-steam {
