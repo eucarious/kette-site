@@ -90,6 +90,19 @@ p {
   object-fit: cover;
 }
 
+.games {
+  width: 35vw;
+  padding: 0;
+  margin: 0.5vw 0;
+}
+
+.games-img {
+  margin: 2vw 0;
+  width: 35vw;
+  height: 20vw;
+  object-fit: cover;
+}
+
 .date {
   padding: 0;
   margin: 0;
@@ -106,11 +119,12 @@ p {
   flex: content;
   flex-direction: row;
   gap: 2vw;
+  flex-wrap: wrap;
 }
 
 .hero {
-  margin: 3vh -1vw;
-  height: 60vh;
+  margin: 3vw -1vw;
+  height: 60vw;
   width: 100vw;
   background-size: cover;
   background-position: center;
@@ -121,110 +135,6 @@ p {
   margin: 0;
   padding: 0.1vw;
 }
-
-
-
-/* 
-
-.pixelify-sans-title {
-  font-family: "Pixelify Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-* {
-  font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-}
-
-html {
-  background-image: url("/img/bg.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-body {
-  margin: auto;
-  max-width: 700px;
-  height: 100%;
-  min-height: 100vh;
-  color: var(--text);
-  background-color: var(--bg);
-}
-
-.center {
-  text-align: center;
-}
-
-.studio-title {
-  font-size: xxx-large;
-  /* font-weight: 400; 
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-.announce-date {
-  margin-top: -5px; 
-  text-decoration: underline wavy rgb(164, 190, 237);
-}.ib {
-  display: inline-block;
-}
-
-.b2{
-  font-size: large;
-}
-
-.logo {
-  max-width: 150px;
-  max-height: 150px;
-  padding: 0;
-  margin: 0;
-}
-
-.t {
-  margin-bottom: auto;
-  padding: 8vh 0 0 0;
-}
-
-.f {
-  margin-top: auto;
-  padding: 0 0 2vh 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  
-}
-
-
-.steamframe-wrapper {
-	position: relative;
-  padding: 0px 0px 200px ;
-  margin: 0 40px;
-	height: 0;
-}
-
-.steamframe-wrapper iframe {
-	position: absolute;
-  left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.yt-wrapper {
-	position: relative;
-  padding: 25px 0px 35%;;
-  margin: 0 100px;
-	height: 0;
-}
-.yt-wrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-*/
 
 .b-link {
   height: 6vw;
