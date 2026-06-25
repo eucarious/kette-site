@@ -1,120 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&display=swap');
 
 :root {
-  --bg: oklch(99.313% 0.0119 96.474);
+  --bg: #FEFCF9;
   --text: oklch(15.08% 0.02731 82.098);
-  --text-muted: oklch(0.4 0.03 85);
+  --text-muted: oklch(43.861% 0.00005 271.152);
   --text-bright: oklch(1 0.03 85);
-}
 
-
-.pixelify-sans-title {
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-* {
-  font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+.azeret-mono-medium {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
-html {
-  background-image: url("/img/bg.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+h1 {
+  font-size: 3vw;
 }
 
-body {
-  margin: auto;
-  max-width: 700px;
-  height: 100%;
-  min-height: 100vh;
-  color: var(--text);
-  background-color: var(--bg);
+h2 {
+  font-size: 2vw;
 }
 
-.center {
-  text-align: center;
+h3 {
+  font-size: 1.5vw;
+  color: var(--text-muted);
 }
 
-.studio-title {
-  font-size: xxx-large;
-  /* font-weight: 400; */
-  margin-bottom: 0;
-  margin-top: 0;
+
+p {
+  font-size: 1.7vw;
 }
 
-.announce-date {
-  margin-top: -5px; 
-  text-decoration: underline wavy rgb(164, 190, 237);
-}.ib {
-  display: inline-block;
+.azeret-mono-footer {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0.1vw;
 }
 
-.b2{
-  font-size: large;
+.pixelify-sans {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.rainbow-div {
+  height: 0.35vw;
+  width: 80vw;
+  margin: 1.5vw auto;
+  background: #ff2b2b;
+  background: linear-gradient(90deg, rgba(255, 43, 43, 1) 0%, rgba(255, 167, 66, 1) 15%, rgba(237, 255, 99, 1) 30%, rgba(142, 237, 74, 1) 46%, rgba(72, 224, 247, 1) 63%, rgba(33, 36, 217, 1) 81%, rgba(237, 83, 222, 1) 100%);
+
 }
 
 .logo {
-  max-width: 150px;
-  max-height: 150px;
+  max-height: 8vw;
+  display: inline;
+}
+
+.pad {
+  margin: 2vw 0;
+}
+
+.xtra-pad {
+  margin: 5vw 0;
+}
+
+
+.news {
+  width: 25vw;
+  padding: 0;
+  margin: 0.5vw 0;
+}
+
+.news-img {
+  width: 45vw;
+  height: 10vw;
+  object-fit: cover;
+}
+
+.games {
+  width: 35vw;
+  padding: 0;
+  margin: 0.5vw 0;
+}
+
+.games-img {
+  margin: 2vw 0;
+  width: 35vw;
+  height: 20vw;
+  object-fit: cover;
+}
+
+.date {
   padding: 0;
   margin: 0;
 }
 
-.t {
-  margin-bottom: auto;
-  padding: 8vh 0 0 0;
+.navigation a {
+  text-decoration: none;
+  color: var(--text);
+  transition: color 0.3s;
 }
 
-.f {
-  margin-top: auto;
-  padding: 0 0 2vh 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  
+.navigation a:hover {
+  color: var(--text-muted);
 }
 
-
-.steamframe-wrapper {
-	position: relative;
-  padding: 0px 0px 200px ;
-  margin: 0 40px;
-	height: 0;
+.flex-c {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex: content;
+  flex-direction: row;
+  gap: 2vw;
+  flex-wrap: wrap;
+}
+.flex-c-col {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex: content;
+  flex-direction: column;
+  gap: 2vw;
+  flex-wrap: wrap;
+  column-fill: auto;
 }
 
-.steamframe-wrapper iframe {
-	position: absolute;
-  left: 0;
-	width: 100%;
-	height: 100%;
+.hero {
+  margin: 3vw -1vw;
+  height: 60vw;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/img/bg.png);
 }
 
-.yt-wrapper {
-	position: relative;
-  padding: 25px 0px 35%;;
-  margin: 0 100px;
-	height: 0;
-}
-.yt-wrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+.footer-p {
+  margin: 0;
+  padding: 0.1vw;
 }
 
 .b-link {
-  height: 40px;
-  width: 40px;
+  height: 6vw;
+  width:6vw;
   display: inline-block;
   border: 0;
   background-color: unset;
+  background-size: cover;
   color: transparent;
-  border-radius: 8px;
-  margin: 0 2px;
+  margin: 0.2vw;
 }
 
 .b-steam {
@@ -144,5 +190,4 @@ body {
 .b-link:hover {
   animation: 1s;
   filter: saturate(2); 
-  /* do not leave this at 10 lol */
-}
+} 
