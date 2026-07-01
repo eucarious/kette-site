@@ -156,6 +156,24 @@ p {
   margin: 0 16vw;
 }
 
+.i-promise-its-temp-button {
+  width: 30vw;
+  padding: 2vw;
+  color: var(--text-bright);
+  background-color: var(--text-muted);
+  border-radius: 4vw;
+  border-color: pink;
+  transition: all 0.2s;
+  font-family: "Azeret Mono", monospace;
+  font-weight: 400;
+  font-size: 1.8vw;
+}
+.i-promise-its-temp-button:hover {
+  background-color: #ff95ac;
+  color: var(--text);
+  font-weight: 450;
+}
+
 .b-link {
   height: 6vw;
   width:6vw;
