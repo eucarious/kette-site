@@ -6,7 +6,7 @@
   --text-muted: oklch(43.861% 0.00005 271.152);
   --text-bright: oklch(1 0.03 85);
 
-  font-family: "Pixelify Sans", sans-serif;
+  font-family: "Azaret Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -35,7 +35,7 @@ h3 {
 
 
 p {
-  font-size: 1.7vw;
+  font-size: 1.5vw;
 }
 
 .azeret-mono-footer {
@@ -144,7 +144,7 @@ p {
   width: 100vw;
   background-size: cover;
   background-position: center;
-  background-image: url(/img/bg.png);
+  background-image: url(/img/bg.jpg);
 }
 
 .footer-p {
@@ -157,7 +157,7 @@ p {
 }
 
 .i-promise-its-temp-button {
-  width: 30vw;
+  width: 20vw;
   padding: 2vw;
   color: var(--text-bright);
   background-color: var(--text-muted);
@@ -167,6 +167,7 @@ p {
   font-family: "Azeret Mono", monospace;
   font-weight: 400;
   font-size: 1.8vw;
+  margin: 0 1rem 2rem;
 }
 .i-promise-its-temp-button:hover {
   background-color: #ff95ac;
